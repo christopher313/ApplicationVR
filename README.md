@@ -11,4 +11,4 @@ Il vous est demandé si vous voulez réinitialiser les paramètres d'entrée d'u
 Tuto
 ------------
 
-[ApplicationVR.pdf](https://github.com/christopher313/ApplicationVR/files/7934678/ApplicationVR.pdf)
+
