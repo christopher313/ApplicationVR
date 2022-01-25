@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 4166074113
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8ad32fc33438af1220fa40be610ed721
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/NextMindSDK/Core/Runtime/Animations/Feedbacks/TriangleFeedback/TF_FullConfidence.anim
+- Assets/NextMindSDK/Core/Runtime/Animations/Feedbacks/TriangleFeedback/TF_NoConfidence.anim
+Dependencies: []

@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 320189115
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc1a03817395ffd8cf526c5c839cc14a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 37704be350e2c6af798e08a59c32d28e
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/NextMindSDK/Core/Runtime/Fonts/Barlow-Regular.otf
+Dependencies: []
