@@ -5,7 +5,7 @@ Projet de stage
 -------------
 /!\Important/!\
 ------------
-Quand vous lancerez le projet il vous est demandez si vous voulez passer sur le nouveau system d'input de unity. Cliquer sur "no".
+orsque vous démarrez le projet, il vous sera demandé si vous souhaitez passer au nouveau système d'entrée de l'unité. Cliquez sur "no".
 
 ----------
 TUTO
