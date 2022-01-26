@@ -378,8 +378,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5296961325089439254, guid: 19db330840e4298489b4d8d95fa44c11, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 479136263}
+    - target: {fileID: 5296961325089439254, guid: 19db330840e4298489b4d8d95fa44c11, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5296961325089439254, guid: 19db330840e4298489b4d8d95fa44c11, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5296961325089439255, guid: 19db330840e4298489b4d8d95fa44c11, type: 3}
       propertyPath: m_UiScaleMode
@@ -1221,7 +1229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.535
+      value: 1.56
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1229,7 +1237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.83
+      value: -3.74
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: ce816f2e6abb0504092c23ed9b970dfd, type: 3}
       propertyPath: m_LocalRotation.w

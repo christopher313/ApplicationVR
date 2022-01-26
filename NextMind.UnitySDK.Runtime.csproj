@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E7059518-D089-CB13-DAA8-7BAF03027D2A}</ProjectGuid>
+    <ProjectGuid>{57F92F28-1B7D-CDA7-64C5-29B9EB041515}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NextMind.UnitySDK.Runtime</AssemblyName>
