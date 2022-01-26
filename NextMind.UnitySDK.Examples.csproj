@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ED4BC5F8-C446-7860-7B6D-E4ADC1F79CE8}</ProjectGuid>
+    <ProjectGuid>{4D030FDA-06C7-B1B3-49F7-4E0D4ED3C99F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>NextMind.UnitySDK.Examples</AssemblyName>
