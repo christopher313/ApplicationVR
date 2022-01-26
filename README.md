@@ -2,7 +2,7 @@
 -----------------
 Projet de stage
 --------------------
-Application pour le casque de réalité virtuelle d'oculust quest et NextMind
+Application pour le casque de réalité virtuelle d'oculust quest et NextMind.
 Avoir unity (minimum version 2019)(préférence la version 2021.2.8f1)
 
 IMPORTANT !!!
