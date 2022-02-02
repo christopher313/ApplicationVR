@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,82 +53,79 @@
     <UnityVersion>2021.2.8f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Steps\HubManager.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\FlashController.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\TweeningSequencer.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Utils\DropdownHandler.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\ConclusionStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\ToggleReleaseStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\VideoPlayerController.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Utils\EnsureWorldCamera.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\RotateTransition.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\FocusStrengthVisualizationStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\ResultStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\GuidelinesSizeStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Feedbacks\NeuroTagParticleBurst.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\SlideTransition.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Utils\CircleLayout.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\ContactQualitySlider.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Steps\StepsManager.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Steps\WaitingForSystemReadyStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\PairingSteps\ConfirmPairingStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\CutPaste\CutPasteStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\NeuroTagGalleryStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\SelectDeviceStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\VideoTutorialStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\GuidelinesShapeStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\DeviceConnectionStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\PersistantToggleStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\Effects\ActivationEffect.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\CutPaste\PasteContainer.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\TrackingCameraStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\LitUnlitStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Utils\CanvasFader.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\AdjustDeviceStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Feedbacks\NeuroTagSmoothScale.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\IntroStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Utils\DescriptionModifier.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\ExampleScenesManager.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\AnimationStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Steps\AbstractStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\DeviceUIElement.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\ProjectionStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\PairingSteps\DeviceConnectionSubstep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\PairingSteps\ChooseDeviceToPairStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\CustomStimulation\CustomStimulation.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\PairingSteps\PairingSuccessStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\ConstantSizeStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\TweeningTransition.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\ScaleTransition.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\ZoomStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\MonoTargetBehaviour.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Utils\SchemeLedBlinker.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Utils\LevitationMovement.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\PairingSteps\PairNewDeviceStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\CustomStimulation\CustomStimulationStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\ImageFadeTransition.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Utils\EventNotifier.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\TextFadeTransition.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\MultipleNeuroTagsStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\TweeningAnimator.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\DiscoveryStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\IntroductionStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Feedbacks\LevitatingNeuroTagFeedback.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Utils\MouseCursorEnabler.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\MonoTargetCalibrationStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\SDKDiscovery\Scripts\Steps\ExplosionStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\WaitingForCalibrationResultsStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\ColoredNeuroTagStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Calibration\Scripts\Steps\InstructionStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NeuroTagGallery\Scripts\Steps\RenderModeStep.cs" />
+    <Compile Include="Assets\Samples\NextMind SDK\1.5.0\Examples\Common Resources\Scripts\Tweening Library\Effects\TweeningEffect.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Steps\HubManager.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\FlashController.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\TweeningSequencer.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Utils\DropdownHandler.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\ConclusionStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\ToggleReleaseStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\VideoPlayerController.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Utils\EnsureWorldCamera.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\RotateTransition.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\FocusStrengthVisualizationStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\ResultStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\GuidelinesSizeStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Feedbacks\NeuroTagParticleBurst.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\SlideTransition.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Utils\CircleLayout.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\ContactQualitySlider.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Steps\StepsManager.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Steps\WaitingForSystemReadyStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\PairingSteps\ConfirmPairingStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\CutPaste\CutPasteStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\NeuroTagGalleryStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\SelectDeviceStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\VideoTutorialStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\GuidelinesShapeStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\DeviceConnectionStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\PersistantToggleStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\Effects\ActivationEffect.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\CutPaste\PasteContainer.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\TrackingCameraStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\LitUnlitStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Utils\CanvasFader.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\AdjustDeviceStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Feedbacks\NeuroTagSmoothScale.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\IntroStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Utils\DescriptionModifier.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\ExampleScenesManager.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\AnimationStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Steps\AbstractStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\DeviceUIElement.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\ProjectionStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\PairingSteps\DeviceConnectionSubstep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\PairingSteps\ChooseDeviceToPairStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\CustomStimulation\CustomStimulation.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\PairingSteps\PairingSuccessStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\ConstantSizeStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\TweeningTransition.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\ScaleTransition.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\ZoomStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\MonoTargetBehaviour.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Utils\SchemeLedBlinker.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Utils\LevitationMovement.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\PairingSteps\PairNewDeviceStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\CustomStimulation\CustomStimulationStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\ImageFadeTransition.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Utils\EventNotifier.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\Effects\Transitions\TextFadeTransition.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\MultipleNeuroTagsStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\TweeningAnimator.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\DiscoveryStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\IntroductionStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Feedbacks\LevitatingNeuroTagFeedback.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Utils\MouseCursorEnabler.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\MonoTargetCalibrationStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\SDKDiscovery\Scripts\Steps\ExplosionStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\WaitingForCalibrationResultsStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\ColoredNeuroTagStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Calibration\Scripts\Steps\InstructionStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\NeuroTagGallery\Scripts\Steps\RenderModeStep.cs" />
-    <Compile Include="Assets\NextMindSDK\Examples\Common Resources\Scripts\Tweening Library\Effects\TweeningEffect.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\NextMindSDK\Examples\NextMind.UnitySDK.Examples.asmdef" />
-    <None Include="Assets\NextMindSDK\Examples\README.txt" />
+    <None Include="Assets\Samples\NextMind SDK\1.5.0\Examples\NextMind.UnitySDK.Examples.asmdef" />
+    <None Include="Assets\Samples\NextMind SDK\1.5.0\Examples\README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -368,11 +365,17 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Data\PlaybackEngines\MetroSupport\UnityEditor.UWP.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
@@ -402,10 +405,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="NextMind.Editor">
-      <HintPath>Assets\NextMindSDK\Core\Editor\Plugins\NextMind.Editor.dll</HintPath>
+      <HintPath>Library\PackageCache\com.nextmind.unitysdk@1.5.0\Editor\Plugins\NextMind.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NextMind">
-      <HintPath>Assets\NextMindSDK\Core\Runtime\Plugins\NextMind.dll</HintPath>
+      <HintPath>Library\PackageCache\com.nextmind.unitysdk@1.5.0\Runtime\Plugins\NextMind.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
