@@ -538,10 +538,10 @@
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.6\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="NextMind.Editor">
-      <HintPath>Assets\NextMindSDK\Core\Editor\Plugins\NextMind.Editor.dll</HintPath>
+      <HintPath>Library\PackageCache\com.nextmind.unitysdk@1.5.0\Editor\Plugins\NextMind.Editor.dll</HintPath>
     </Reference>
     <Reference Include="NextMind">
-      <HintPath>Assets\NextMindSDK\Core\Runtime\Plugins\NextMind.dll</HintPath>
+      <HintPath>Library\PackageCache\com.nextmind.unitysdk@1.5.0\Runtime\Plugins\NextMind.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 11c2169337c265e44b5913a67d51583e
   - enabled: 0
-    path: Assets/Scripts/NeuroTagGallery.unity
+    path: 
     guid: 76e97222f46066d4582712b6c95e99a3
   - enabled: 0
     path: 
@@ -192,16 +192,16 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/NextMindSDK/Examples/SDKDiscovery/SDKDiscovery_VR.unity
+    path: 
     guid: e33964781824d674aaf12d8d0c987f5b
   - enabled: 0
-    path: Assets/NextMindSDK/Examples/Calibration/Calibration_VR.unity
+    path: 
     guid: 510ddf2b8dd9b9a45b175bb73dc3a749
   - enabled: 0
-    path: Assets/NextMindSDK/Examples/NeuroTagGallery/NeuroTagGallery.unity
+    path: 
     guid: 6355f09cc7fc18544947e727b59cc4c3
   - enabled: 0
-    path: Assets/NextMindSDK/Examples/Hub_VR.unity
+    path: 
     guid: d8adbfe92dfe6e047bce1714291d0f18
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1a52229185e90d141b10fcebcf472b71, type: 2}
