@@ -11,4 +11,5 @@ Lorsque vous démarrez le projet, il vous sera demandé si vous souhaitez passer
 TUTO
 ---------
 
-[ApplicationVR.pdf](https://github.com/christopher313/ApplicationVR/files/7942294/ApplicationVR.pdf)
+
+[ApplicationVR.pdf](https://github.com/christopher313/ApplicationVR/files/7996125/ApplicationVR.pdf)
